@@ -1,0 +1,76 @@
+.contato {
+  padding: 80px 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
+}
+
+
+.titulo {
+  font-size: 32px;
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.linha {
+  width: 140px;
+  height: 3px;
+  background-color: #7bc47f;
+  margin: 0 auto 40px;
+}
+
+
+.formulario {
+  max-width: 700px;
+  width: 650px;
+  margin: 0 auto 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formulario input {
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.formulario button {
+  background-color: #e55b1f;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #cc4f19;
+}
+
+
+.rodape {
+  background-color: #1b5e20;
+  color: white;
+  padding: 40px 20px;
+}
+
+.rodape h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.rodape p {
+  margin-bottom: 10px;
+}
+
+.rodape span {
+  font-size: 14px;
+  opacity: 0.8;
+}
+

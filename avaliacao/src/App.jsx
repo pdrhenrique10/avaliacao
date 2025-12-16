@@ -6,7 +6,7 @@ import Cardapio from "./Components/Cardapio"
 import Sobre from "./Components/Sobre"
 import Loc from "./Components/Loc"
 import Mapa from "./Components/Mapa"
-
+import FaleConosco from "./Components/FaleConosco"
 function App() {
   return (
     <div>
@@ -16,6 +16,7 @@ function App() {
     <Cardapio />
     <Sobre />
     <Loc />
+    <FaleConosco />
     </div>
   )
 }
